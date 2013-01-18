@@ -4,7 +4,7 @@
  * Easy but useful loading plugin
  * https://github.com/yhz61010/jquery.barloading.js
  * 
- * &copy; 2012 Michael Leo <http://yhz61010.github.com/>
+ * &copy; 2013 Michael Leo <http://yhz61010.github.com/>
  * Web Site: <http://www.ho1ho.com>
  */
 
