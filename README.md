@@ -7,3 +7,5 @@ How it works:
 $("#id").barLoading({number: 5});
 <br>
 $("#id").barLoading("destroy");
+
+Hava a good time!
