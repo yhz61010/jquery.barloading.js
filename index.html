@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bar Loading</title>
+	<style type="text/css">
+		#bl{margin: 180px 0 0 36px;}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.barloading.js"></script>
+	<script>
+		$(function() {
+			$("#start").click(function(){
+				$("#bl").barLoading({number: 5});
+			});
+			$("#remove").click(function(){
+				$("#bl").barLoading("destroy");
+			});
+		});
+	</script>
+</head>
+<body>
+	<input id="start" type="button" value="Start" /><input id="remove" type="button" value="Remove" />
+	<div id="bl"></div>
+</body>
+</html>
